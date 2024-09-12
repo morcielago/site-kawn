@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('https://i.pinimg.com/originals/a8/2a/6f/a82a6ff59e27c4800a59c25b84b8dd91.gif'); /* Atualizado com o link do novo GIF */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Para que o fundo não se mova com o rolar da página */
+}
+
+header {
+    background-color: rgba(139, 5, 5, 0.267); /* Vermelho Carmesim com mais opacidade */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.slogan {
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: rgba(106, 13, 173, 0); /* Roxo Neon com mais opacidade */
+    color: rgb(216, 38, 38);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0); /* Fundo branco semitransparente para contraste */
+    border-radius: 8px;
+    color: #1b357e; /* Texto em cor escura para legibilidade */
+}
+
+button, .button {
+    background-color: #06124bd5; /* Vermelho Carmesim */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+button:hover, .button:hover {
+    background-color: #00e1ff00; /* Vermelho mais escuro para o hover */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.39); /* Roxo Neon com mais opacidade */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
